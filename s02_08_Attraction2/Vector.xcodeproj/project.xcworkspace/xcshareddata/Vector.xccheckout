@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5EB58310-BEC1-4FED-A147-C8115C5679E4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Vector</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>78672DAEAD7B591B70F93B22262D7A5FC7FC7557</key>
+		<string>https://github.com/tado/tau_ma2_14.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>14_ParticleClass05/Vector.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>78672DAEAD7B591B70F93B22262D7A5FC7FC7557</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tado/tau_ma2_14.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>78672DAEAD7B591B70F93B22262D7A5FC7FC7557</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>78672DAEAD7B591B70F93B22262D7A5FC7FC7557</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tau_ma2_14</string>
+		</dict>
+	</array>
+</dict>
+</plist>
