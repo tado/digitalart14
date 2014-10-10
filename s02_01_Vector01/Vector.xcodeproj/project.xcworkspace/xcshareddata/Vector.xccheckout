@@ -10,31 +10,31 @@
 	<string>Vector</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>78672DAEAD7B591B70F93B22262D7A5FC7FC7557</key>
-		<string>https://github.com/tado/tau_ma2_14.git</string>
+		<key>D211CD10EFA548885189853C977D3156A7616281</key>
+		<string>https://github.com/tado/digitalart14.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>09_Vector05/Vector.xcodeproj</string>
+	<string>s02_01_Vector01/Vector.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>78672DAEAD7B591B70F93B22262D7A5FC7FC7557</key>
+		<key>D211CD10EFA548885189853C977D3156A7616281</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/tado/tau_ma2_14.git</string>
+	<string>https://github.com/tado/digitalart14.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>78672DAEAD7B591B70F93B22262D7A5FC7FC7557</string>
+	<string>D211CD10EFA548885189853C977D3156A7616281</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>78672DAEAD7B591B70F93B22262D7A5FC7FC7557</string>
+			<string>D211CD10EFA548885189853C977D3156A7616281</string>
 			<key>IDESourceControlWCCName</key>
-			<string>tau_ma2_14</string>
+			<string>digitalart14</string>
 		</dict>
 	</array>
 </dict>

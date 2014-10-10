@@ -27,19 +27,14 @@ public:
     void updatePos();
     // 画面からはみ出たらバウンドさせる
     void bounceOffWalls();
-    
     // 描画する円の数を指定
     static const int CIRCLE_NUM = 10000;
-    
     // 位置ベクトルの配列
     ofVec2f position[CIRCLE_NUM];
-    
     // 速度ベクトルの配列
     ofVec2f velocity[CIRCLE_NUM];
-    
     // 力ベクトルの配列
     ofVec2f force[CIRCLE_NUM];
-    
     // 摩擦係数
     float friction;
 };
