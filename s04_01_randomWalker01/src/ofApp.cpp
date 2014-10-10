@@ -19,8 +19,8 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
     //上下左右同じ確率でランダムに移動
-    pos.x += round(ofRandom(-1, 1));
-    pos.y += round(ofRandom(-1, 1));
+    pos.x += ofRandom(-1, 1);
+    pos.y += ofRandom(-1, 1);
     
     //円(点)を描く
     ofSetColor(255);
