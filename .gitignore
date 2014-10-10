@@ -95,6 +95,7 @@ Thumbs.db
 # Folder config file
 Desktop.ini
 *.dll
+*.exe
 
 # Android
 .csettings
