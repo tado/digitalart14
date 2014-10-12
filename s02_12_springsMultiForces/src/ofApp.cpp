@@ -23,7 +23,7 @@ void ofApp::setup(){
     //全ての配列を順番にspringで接続していく
     for (int i = 0; i < particles.size(); i++){
         Spring mySpring;
-        mySpring.distance = 4;
+        mySpring.distance = 1;
         mySpring.springiness = 0.5;
         mySpring.particleA = &(particles[i]);
         mySpring.particleB = &(particles[(i+1) % particles.size()]);
@@ -49,7 +49,7 @@ void ofApp::update(){
         }
         // パーティクル同士の反発する力
         for (int j = 0; j < i; j++){
-            particles[i].addRepulsionForce(particles[j], 50, 0.1);
+            particles[i].addRepulsionForce(particles[j], 50, 0.5);
         }
     }
     

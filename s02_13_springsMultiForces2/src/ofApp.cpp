@@ -59,6 +59,7 @@ void ofApp::update(){
 	//パーティクルの状態を更新 (壁でバウンド)
     for (int i = 0; i < particles.size(); i++){
         particles[i].updateForce();
+        particles[i].addForce(ofVec2f(0, 0.2));
         particles[i].update();
         particles[i].bounceOffWalls();
     }

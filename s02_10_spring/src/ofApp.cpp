@@ -19,7 +19,7 @@ void ofApp::setup(){
     
     //ばね(spring)を、パーティクル間に張る
     mySpring.distance = 100; //ばねの長さ
-    mySpring.springiness = 0.1; //ばねの硬さ
+    mySpring.springiness = 0.7; //ばねの硬さ
     
     // 両端のParticleをオブジェクトの参照として渡す
     mySpring.particleA = &particle_a;

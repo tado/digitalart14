@@ -12,7 +12,7 @@ void ofApp::setup(){
     
     for (int i = 0; i < NUM; i++) {
         Particle p;
-        p.friction = 0.002;
+        p.friction = 0.0001;
         p.setup(ofVec2f(ofRandom(ofGetWidth()), ofRandom(ofGetHeight())), ofVec2f(0, 0));
         particles.push_back(p);
     }
@@ -27,7 +27,7 @@ void ofApp::update(){
         // もし引力がはたらいていたら
         if (atraction) {
             // マウスの位置に引力を加える
-            particles[i].addAttractionForce(mouseX, mouseY, ofGetWidth(), 0.1);
+            particles[i].addAttractionForce(mouseX, mouseY, ofGetWidth(), 0.5);
         }
         // パーティクル更新
         particles[i].update();

@@ -13,7 +13,7 @@ void ofApp::setup(){
     for (int i = 0; i < 20; i++) {
         Particle p;
         p.radius = 5;
-        p.friction = 0.01;
+        p.friction = 0.05;
         p.setup(ofVec2f(ofGetWidth()/2, i * 20 + 100), ofVec2f(0,0));
         particles.push_back(p);
     }
@@ -22,7 +22,7 @@ void ofApp::setup(){
     for (int i = 0; i < (particles.size()-1); i++){
         Spring mySpring;
         mySpring.distance = 10;
-        mySpring.springiness = 0.1;
+        mySpring.springiness = 0.5;
         mySpring.particleA = &(particles[i]);
         mySpring.particleB = &(particles[(i+1) % particles.size()]);
         springs.push_back(mySpring);

@@ -28,7 +28,7 @@ void ofApp::update(){
         particles[i].resetForce();
         // パーティクル同士の反発する力
         for (int j = 0; j < i; j++){
-            particles[i].addAttractionForce(particles[j], 120.0, 0.001);
+            particles[i].addAttractionForce(particles[j], 120.0, 0.01);
         }
         // マウスをクリックした点に引力を加える
         if (atraction) {
